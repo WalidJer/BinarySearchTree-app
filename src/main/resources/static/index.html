@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Enter Numbers — BST Builder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+<!-- Header -->
+<header class="site-header">
+    <div class="header-inner" style="display:flex; align-items:center;">
+        <div class="brand"><span class="dot"></span> Binary Search Tree Builder</div>
+        <div class="nav-actions">
+            <a class="btn secondary" href="/previous-trees">Show Previous</a>
+        </div>
+    </div>
+</header>
+
+<!-- Main -->
+<main class="container">
+    <h1 class="page-title">Build a Binary Search Tree</h1>
+    <p class="subtle">Enter numbers separated by spaces, commas, or semicolons (e.g. <code>7, 3;9 1 5</code>).</p>
+
+    <!-- Form -->
+    <section class="card" style="margin-top:12px;">
+        <form id="form">
+            <div class="form-row">
+                <input id="numbers" name="numbers" type="text" placeholder="7, 3;9 1 5" required />
+                <label class="inline"><input type="checkbox" id="balanced" name="balanced" /> Balanced</label>
+                <button class="primary" type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- JSON -->
+    <section class="card" style="margin-top:16px;">
+        <h2>JSON</h2>
+        <pre id="json">(submit to see output)</pre>
+    </section>
+
+    <!-- Visual -->
+    <section class="card" style="margin-top:16px;">
+        <h2>Visual</h2>
+        <div id="viz" class="tree">—</div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div class="foot-grid">
+            <small>© 2025 BST Builder</small>
+            <small class="mono">/enter-numbers → /process-numbers → /previous-trees</small>
+        </div>
+    </div>
+</footer>
+
+<script src="/script.js"></script>
+</body>
+</html>
