@@ -69,7 +69,7 @@ src/
 1. **Clone the repository**
    ```bash
    git clone https://github.com/WalidJer/BinarySearchTree-app.git
-   cd bst-builder
+   cd BinarySearchTree-app
    ```
 
 2. **Build and run the application**
